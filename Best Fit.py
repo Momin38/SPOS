@@ -28,6 +28,8 @@ for i in range(len(processSize)):
             
             
             
-print(blockNumber)
+print('Process','       ','Process Size','      ','Block Number')
+for i in range(len(processSize)):
+    print(' ',i+1,'                 ',processSize[i],'               ',blockNumber[i])
             
             
